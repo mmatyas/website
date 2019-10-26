@@ -1,0 +1,1962 @@
+{
+  "entrypoints": [
+    "main"
+  ],
+  "origins": {
+    "0": [
+      1,
+      2,
+      3,
+      4,
+      6,
+      76,
+      78,
+      0
+    ],
+    "1": [
+      0,
+      3,
+      4,
+      6,
+      1
+    ],
+    "@site/src/pages/index.js": [
+      0,
+      76,
+      2
+    ],
+    "@theme/BlogListPage": [
+      0,
+      1,
+      3
+    ],
+    "@theme/BlogPostPage": [
+      0,
+      1,
+      4
+    ],
+    "@theme/DocItem": [
+      5
+    ],
+    "@theme/DocPage": [
+      0,
+      1,
+      6
+    ],
+    "@site/blog/2018-01-14-rust-2018-a-neon-wish-list.md?truncated=true": [
+      7
+    ],
+    "@site/blog/2015-12-23-neon-node-rust.md": [
+      8
+    ],
+    "@site/blog/2016-04-01-native-js-classes-in-neon.md": [
+      9
+    ],
+    "@site/blog/2017-09-25-neon-wants-your-help.md": [
+      10
+    ],
+    "@site/blog/2018-01-14-rust-2018-a-neon-wish-list.md": [
+      11
+    ],
+    "@site/blog/2018-10-22-hello-world.md": [
+      12
+    ],
+    "@site/blog/2016-04-01-native-js-classes-in-neon.md?truncated=true": [
+      13
+    ],
+    "@site/blog/2017-09-25-neon-wants-your-help.md?truncated=true": [
+      14
+    ],
+    "@site/blog/2015-12-23-neon-node-rust.md?truncated=true": [
+      15
+    ],
+    "@site/blog/2018-10-22-hello-world.md?truncated=true": [
+      16
+    ],
+    "@site/docs/arguments.md": [
+      17
+    ],
+    "@site/docs/arrays.md": [
+      18
+    ],
+    "@site/docs/async.md": [
+      19
+    ],
+    "@site/docs/classes.md": [
+      20
+    ],
+    "@site/docs/cli.md": [
+      21
+    ],
+    "@site/docs/electron-apps.md": [
+      22
+    ],
+    "@site/docs/errors.md": [
+      23
+    ],
+    "@site/docs/example-projects.md": [
+      24
+    ],
+    "@site/docs/functions.md": [
+      25
+    ],
+    "@site/docs/getting-started.md": [
+      26
+    ],
+    "@site/docs/guides.md": [
+      27
+    ],
+    "@site/docs/hello-world.md": [
+      28
+    ],
+    "@site/docs/intro.md": [
+      29
+    ],
+    "@site/docs/json.md": [
+      30
+    ],
+    "@site/docs/learning-resources.md": [
+      31
+    ],
+    "@site/docs/modules.md": [
+      32
+    ],
+    "@site/docs/objects.md": [
+      33
+    ],
+    "@site/docs/parallisim.md": [
+      34
+    ],
+    "@site/docs/primitives.md": [
+      35
+    ],
+    "@site/docs/publishing.md": [
+      36
+    ],
+    "@site/docs/roadmap.md": [
+      37
+    ],
+    "@site/docs/sdl2-crate-guide.md": [
+      38
+    ],
+    "@site/docs/tooling.md": [
+      39
+    ],
+    "@site/docs/type-checking.md": [
+      40
+    ],
+    "@site/docs/word-counting.md": [
+      41
+    ],
+    "@docusaurus-plugin-content-docs/docs-b5f.json": [
+      42
+    ],
+    "main": [
+      75,
+      43
+    ],
+    "@docusaurus-plugin-content-blog/blog-c06.json": [
+      44
+    ],
+    "@docusaurus-plugin-content-blog/blog-2018-10-22-hello-world-f5a.json": [
+      45
+    ],
+    "@docusaurus-plugin-content-docs/docs-arguments-576.json": [
+      46
+    ],
+    "@docusaurus-plugin-content-docs/docs-arrays-cb4.json": [
+      47
+    ],
+    "@docusaurus-plugin-content-docs/docs-async-883.json": [
+      48
+    ],
+    "@docusaurus-plugin-content-docs/docs-classes-2f4.json": [
+      49
+    ],
+    "@docusaurus-plugin-content-docs/docs-cli-50f.json": [
+      50
+    ],
+    "@docusaurus-plugin-content-docs/docs-electron-apps-347.json": [
+      51
+    ],
+    "@docusaurus-plugin-content-docs/docs-errors-eb3.json": [
+      52
+    ],
+    "@docusaurus-plugin-content-docs/docs-example-projects-d5b.json": [
+      53
+    ],
+    "@docusaurus-plugin-content-docs/docs-functions-33b.json": [
+      54
+    ],
+    "@docusaurus-plugin-content-docs/docs-getting-started-521.json": [
+      55
+    ],
+    "@docusaurus-plugin-content-docs/docs-guides-1ba.json": [
+      56
+    ],
+    "@docusaurus-plugin-content-docs/docs-hello-world-8cc.json": [
+      57
+    ],
+    "@docusaurus-plugin-content-docs/docs-intro-d6e.json": [
+      58
+    ],
+    "@docusaurus-plugin-content-docs/docs-json-9e3.json": [
+      59
+    ],
+    "@docusaurus-plugin-content-docs/docs-learning-resources-29d.json": [
+      60
+    ],
+    "@docusaurus-plugin-content-docs/docs-modules-27b.json": [
+      61
+    ],
+    "@docusaurus-plugin-content-docs/docs-objects-b7a.json": [
+      62
+    ],
+    "@docusaurus-plugin-content-docs/docs-parallelism-228.json": [
+      63
+    ],
+    "@docusaurus-plugin-content-docs/docs-primitives-c60.json": [
+      64
+    ],
+    "@docusaurus-plugin-content-docs/docs-publishing-d90.json": [
+      65
+    ],
+    "@docusaurus-plugin-content-docs/docs-roadmap-3c7.json": [
+      66
+    ],
+    "@docusaurus-plugin-content-docs/docs-sdl-2-guide-a32.json": [
+      67
+    ],
+    "@docusaurus-plugin-content-docs/docs-tooling-d90.json": [
+      68
+    ],
+    "@docusaurus-plugin-content-docs/docs-type-checking-447.json": [
+      69
+    ],
+    "@docusaurus-plugin-content-docs/docs-word-counting-a94.json": [
+      70
+    ],
+    "@docusaurus-plugin-content-blog/blog-2015-12-23-neon-node-rust-dd9.json": [
+      71
+    ],
+    "@docusaurus-plugin-content-blog/blog-2016-04-01-native-js-classes-in-neon-e5d.json": [
+      72
+    ],
+    "@docusaurus-plugin-content-blog/blog-2017-09-25-neon-wants-your-help-e66.json": [
+      73
+    ],
+    "@docusaurus-plugin-content-blog/blog-2018-01-14-rust-2018-a-neon-wish-list-7d6.json": [
+      74
+    ],
+    "runtime~main": [
+      43,
+      75
+    ],
+    "lowlight/lib/core": [
+      0,
+      2,
+      76
+    ],
+    "highlight.js/lib/languages/1c": [
+      0,
+      2,
+      76
+    ],
+    "highlight.js/lib/languages/abnf": [
+      0,
+      2,
+      76
+    ],
+    "highlight.js/lib/languages/accesslog": [
+      0,
+      2,
+      76
+    ],
+    "highlight.js/lib/languages/actionscript": [
+      0,
+      2,
+      76
+    ],
+    "highlight.js/lib/languages/ada": [
+      0,
+      2,
+      76
+    ],
+    "highlight.js/lib/languages/angelscript": [
+      0,
+      2,
+      76
+    ],
+    "highlight.js/lib/languages/apache": [
+      0,
+      2,
+      76
+    ],
+    "highlight.js/lib/languages/applescript": [
+      0,
+      2,
+      76
+    ],
+    "highlight.js/lib/languages/arcade": [
+      0,
+      2,
+      76
+    ],
+    "highlight.js/lib/languages/cpp": [
+      0,
+      2,
+      76
+    ],
+    "highlight.js/lib/languages/arduino": [
+      0,
+      2,
+      76
+    ],
+    "highlight.js/lib/languages/armasm": [
+      0,
+      2,
+      76
+    ],
+    "highlight.js/lib/languages/xml": [
+      0,
+      2,
+      76
+    ],
+    "highlight.js/lib/languages/asciidoc": [
+      0,
+      2,
+      76
+    ],
+    "highlight.js/lib/languages/aspectj": [
+      0,
+      2,
+      76
+    ],
+    "highlight.js/lib/languages/autohotkey": [
+      0,
+      2,
+      76
+    ],
+    "highlight.js/lib/languages/autoit": [
+      0,
+      2,
+      76
+    ],
+    "highlight.js/lib/languages/avrasm": [
+      0,
+      2,
+      76
+    ],
+    "highlight.js/lib/languages/awk": [
+      0,
+      2,
+      76
+    ],
+    "highlight.js/lib/languages/axapta": [
+      0,
+      2,
+      76
+    ],
+    "highlight.js/lib/languages/bash": [
+      0,
+      2,
+      76
+    ],
+    "highlight.js/lib/languages/basic": [
+      0,
+      2,
+      76
+    ],
+    "highlight.js/lib/languages/bnf": [
+      0,
+      2,
+      76
+    ],
+    "highlight.js/lib/languages/brainfuck": [
+      0,
+      2,
+      76
+    ],
+    "highlight.js/lib/languages/cal": [
+      0,
+      2,
+      76
+    ],
+    "highlight.js/lib/languages/capnproto": [
+      0,
+      2,
+      76
+    ],
+    "highlight.js/lib/languages/ceylon": [
+      0,
+      2,
+      76
+    ],
+    "highlight.js/lib/languages/clean": [
+      0,
+      2,
+      76
+    ],
+    "highlight.js/lib/languages/clojure": [
+      0,
+      2,
+      76
+    ],
+    "highlight.js/lib/languages/clojure-repl": [
+      0,
+      2,
+      76
+    ],
+    "highlight.js/lib/languages/cmake": [
+      0,
+      2,
+      76
+    ],
+    "highlight.js/lib/languages/coffeescript": [
+      0,
+      2,
+      76
+    ],
+    "highlight.js/lib/languages/coq": [
+      0,
+      2,
+      76
+    ],
+    "highlight.js/lib/languages/cos": [
+      0,
+      2,
+      76
+    ],
+    "highlight.js/lib/languages/crmsh": [
+      0,
+      2,
+      76
+    ],
+    "highlight.js/lib/languages/crystal": [
+      0,
+      2,
+      76
+    ],
+    "highlight.js/lib/languages/cs": [
+      0,
+      2,
+      76
+    ],
+    "highlight.js/lib/languages/csp": [
+      0,
+      2,
+      76
+    ],
+    "highlight.js/lib/languages/css": [
+      0,
+      2,
+      76
+    ],
+    "highlight.js/lib/languages/d": [
+      0,
+      2,
+      76
+    ],
+    "highlight.js/lib/languages/markdown": [
+      0,
+      2,
+      76
+    ],
+    "highlight.js/lib/languages/dart": [
+      0,
+      2,
+      76
+    ],
+    "highlight.js/lib/languages/delphi": [
+      0,
+      2,
+      76
+    ],
+    "highlight.js/lib/languages/diff": [
+      0,
+      2,
+      76
+    ],
+    "highlight.js/lib/languages/django": [
+      0,
+      2,
+      76
+    ],
+    "highlight.js/lib/languages/dns": [
+      0,
+      2,
+      76
+    ],
+    "highlight.js/lib/languages/dockerfile": [
+      0,
+      2,
+      76
+    ],
+    "highlight.js/lib/languages/dos": [
+      0,
+      2,
+      76
+    ],
+    "highlight.js/lib/languages/dsconfig": [
+      0,
+      2,
+      76
+    ],
+    "highlight.js/lib/languages/dts": [
+      0,
+      2,
+      76
+    ],
+    "highlight.js/lib/languages/dust": [
+      0,
+      2,
+      76
+    ],
+    "highlight.js/lib/languages/ebnf": [
+      0,
+      2,
+      76
+    ],
+    "highlight.js/lib/languages/elixir": [
+      0,
+      2,
+      76
+    ],
+    "highlight.js/lib/languages/elm": [
+      0,
+      2,
+      76
+    ],
+    "highlight.js/lib/languages/ruby": [
+      0,
+      2,
+      76
+    ],
+    "highlight.js/lib/languages/erb": [
+      0,
+      2,
+      76
+    ],
+    "highlight.js/lib/languages/erlang-repl": [
+      0,
+      2,
+      76
+    ],
+    "highlight.js/lib/languages/erlang": [
+      0,
+      2,
+      76
+    ],
+    "highlight.js/lib/languages/excel": [
+      0,
+      2,
+      76
+    ],
+    "highlight.js/lib/languages/fix": [
+      0,
+      2,
+      76
+    ],
+    "highlight.js/lib/languages/flix": [
+      0,
+      2,
+      76
+    ],
+    "highlight.js/lib/languages/fortran": [
+      0,
+      2,
+      76
+    ],
+    "highlight.js/lib/languages/fsharp": [
+      0,
+      2,
+      76
+    ],
+    "highlight.js/lib/languages/gams": [
+      0,
+      2,
+      76
+    ],
+    "highlight.js/lib/languages/gauss": [
+      0,
+      2,
+      76
+    ],
+    "highlight.js/lib/languages/gcode": [
+      0,
+      2,
+      76
+    ],
+    "highlight.js/lib/languages/gherkin": [
+      0,
+      2,
+      76
+    ],
+    "highlight.js/lib/languages/glsl": [
+      0,
+      2,
+      76
+    ],
+    "highlight.js/lib/languages/gml": [
+      0,
+      2,
+      76
+    ],
+    "highlight.js/lib/languages/go": [
+      0,
+      2,
+      76
+    ],
+    "highlight.js/lib/languages/golo": [
+      0,
+      2,
+      76
+    ],
+    "highlight.js/lib/languages/gradle": [
+      0,
+      2,
+      76
+    ],
+    "highlight.js/lib/languages/groovy": [
+      0,
+      2,
+      76
+    ],
+    "highlight.js/lib/languages/haml": [
+      0,
+      2,
+      76
+    ],
+    "highlight.js/lib/languages/handlebars": [
+      0,
+      2,
+      76
+    ],
+    "highlight.js/lib/languages/haskell": [
+      0,
+      2,
+      76
+    ],
+    "highlight.js/lib/languages/haxe": [
+      0,
+      2,
+      76
+    ],
+    "highlight.js/lib/languages/hsp": [
+      0,
+      2,
+      76
+    ],
+    "highlight.js/lib/languages/htmlbars": [
+      0,
+      2,
+      76
+    ],
+    "highlight.js/lib/languages/http": [
+      0,
+      2,
+      76
+    ],
+    "highlight.js/lib/languages/hy": [
+      0,
+      2,
+      76
+    ],
+    "highlight.js/lib/languages/inform7": [
+      0,
+      2,
+      76
+    ],
+    "highlight.js/lib/languages/ini": [
+      0,
+      2,
+      76
+    ],
+    "highlight.js/lib/languages/irpf90": [
+      0,
+      2,
+      76
+    ],
+    "highlight.js/lib/languages/isbl": [
+      0,
+      2,
+      76
+    ],
+    "highlight.js/lib/languages/java": [
+      0,
+      2,
+      76
+    ],
+    "highlight.js/lib/languages/javascript": [
+      0,
+      2,
+      76
+    ],
+    "highlight.js/lib/languages/jboss-cli": [
+      0,
+      2,
+      76
+    ],
+    "highlight.js/lib/languages/json": [
+      0,
+      2,
+      76
+    ],
+    "highlight.js/lib/languages/julia": [
+      0,
+      2,
+      76
+    ],
+    "highlight.js/lib/languages/julia-repl": [
+      0,
+      2,
+      76
+    ],
+    "highlight.js/lib/languages/kotlin": [
+      0,
+      2,
+      76
+    ],
+    "highlight.js/lib/languages/lasso": [
+      0,
+      2,
+      76
+    ],
+    "highlight.js/lib/languages/ldif": [
+      0,
+      2,
+      76
+    ],
+    "highlight.js/lib/languages/leaf": [
+      0,
+      2,
+      76
+    ],
+    "highlight.js/lib/languages/less": [
+      0,
+      2,
+      76
+    ],
+    "highlight.js/lib/languages/lisp": [
+      0,
+      2,
+      76
+    ],
+    "highlight.js/lib/languages/livecodeserver": [
+      0,
+      2,
+      76
+    ],
+    "highlight.js/lib/languages/livescript": [
+      0,
+      2,
+      76
+    ],
+    "highlight.js/lib/languages/llvm": [
+      0,
+      2,
+      76
+    ],
+    "highlight.js/lib/languages/lsl": [
+      0,
+      2,
+      76
+    ],
+    "highlight.js/lib/languages/lua": [
+      0,
+      2,
+      76
+    ],
+    "highlight.js/lib/languages/makefile": [
+      0,
+      2,
+      76
+    ],
+    "highlight.js/lib/languages/mathematica": [
+      0,
+      2,
+      76
+    ],
+    "highlight.js/lib/languages/matlab": [
+      0,
+      2,
+      76
+    ],
+    "highlight.js/lib/languages/maxima": [
+      0,
+      2,
+      76
+    ],
+    "highlight.js/lib/languages/mel": [
+      0,
+      2,
+      76
+    ],
+    "highlight.js/lib/languages/mercury": [
+      0,
+      2,
+      76
+    ],
+    "highlight.js/lib/languages/mipsasm": [
+      0,
+      2,
+      76
+    ],
+    "highlight.js/lib/languages/mizar": [
+      0,
+      2,
+      76
+    ],
+    "highlight.js/lib/languages/perl": [
+      0,
+      2,
+      76
+    ],
+    "highlight.js/lib/languages/mojolicious": [
+      0,
+      2,
+      76
+    ],
+    "highlight.js/lib/languages/monkey": [
+      0,
+      2,
+      76
+    ],
+    "highlight.js/lib/languages/moonscript": [
+      0,
+      2,
+      76
+    ],
+    "highlight.js/lib/languages/n1ql": [
+      0,
+      2,
+      76
+    ],
+    "highlight.js/lib/languages/nginx": [
+      0,
+      2,
+      76
+    ],
+    "highlight.js/lib/languages/nimrod": [
+      0,
+      2,
+      76
+    ],
+    "highlight.js/lib/languages/nix": [
+      0,
+      2,
+      76
+    ],
+    "highlight.js/lib/languages/nsis": [
+      0,
+      2,
+      76
+    ],
+    "highlight.js/lib/languages/objectivec": [
+      0,
+      2,
+      76
+    ],
+    "highlight.js/lib/languages/ocaml": [
+      0,
+      2,
+      76
+    ],
+    "highlight.js/lib/languages/openscad": [
+      0,
+      2,
+      76
+    ],
+    "highlight.js/lib/languages/oxygene": [
+      0,
+      2,
+      76
+    ],
+    "highlight.js/lib/languages/parser3": [
+      0,
+      2,
+      76
+    ],
+    "highlight.js/lib/languages/pf": [
+      0,
+      2,
+      76
+    ],
+    "highlight.js/lib/languages/pgsql": [
+      0,
+      2,
+      76
+    ],
+    "highlight.js/lib/languages/php": [
+      0,
+      2,
+      76
+    ],
+    "highlight.js/lib/languages/plaintext": [
+      0,
+      2,
+      76
+    ],
+    "highlight.js/lib/languages/pony": [
+      0,
+      2,
+      76
+    ],
+    "highlight.js/lib/languages/powershell": [
+      0,
+      2,
+      76
+    ],
+    "highlight.js/lib/languages/processing": [
+      0,
+      2,
+      76
+    ],
+    "highlight.js/lib/languages/profile": [
+      0,
+      2,
+      76
+    ],
+    "highlight.js/lib/languages/prolog": [
+      0,
+      2,
+      76
+    ],
+    "highlight.js/lib/languages/properties": [
+      0,
+      2,
+      76
+    ],
+    "highlight.js/lib/languages/protobuf": [
+      0,
+      2,
+      76
+    ],
+    "highlight.js/lib/languages/puppet": [
+      0,
+      2,
+      76
+    ],
+    "highlight.js/lib/languages/purebasic": [
+      0,
+      2,
+      76
+    ],
+    "highlight.js/lib/languages/python": [
+      0,
+      2,
+      76
+    ],
+    "highlight.js/lib/languages/q": [
+      0,
+      2,
+      76
+    ],
+    "highlight.js/lib/languages/qml": [
+      0,
+      2,
+      76
+    ],
+    "highlight.js/lib/languages/r": [
+      0,
+      2,
+      76
+    ],
+    "highlight.js/lib/languages/reasonml": [
+      0,
+      2,
+      76
+    ],
+    "highlight.js/lib/languages/rib": [
+      0,
+      2,
+      76
+    ],
+    "highlight.js/lib/languages/roboconf": [
+      0,
+      2,
+      76
+    ],
+    "highlight.js/lib/languages/routeros": [
+      0,
+      2,
+      76
+    ],
+    "highlight.js/lib/languages/rsl": [
+      0,
+      2,
+      76
+    ],
+    "highlight.js/lib/languages/ruleslanguage": [
+      0,
+      2,
+      76
+    ],
+    "highlight.js/lib/languages/rust": [
+      0,
+      2,
+      76
+    ],
+    "highlight.js/lib/languages/sas": [
+      0,
+      2,
+      76
+    ],
+    "highlight.js/lib/languages/scala": [
+      0,
+      2,
+      76
+    ],
+    "highlight.js/lib/languages/scheme": [
+      0,
+      2,
+      76
+    ],
+    "highlight.js/lib/languages/scilab": [
+      0,
+      2,
+      76
+    ],
+    "highlight.js/lib/languages/scss": [
+      0,
+      2,
+      76
+    ],
+    "highlight.js/lib/languages/shell": [
+      0,
+      2,
+      76
+    ],
+    "highlight.js/lib/languages/smali": [
+      0,
+      2,
+      76
+    ],
+    "highlight.js/lib/languages/smalltalk": [
+      0,
+      2,
+      76
+    ],
+    "highlight.js/lib/languages/sml": [
+      0,
+      2,
+      76
+    ],
+    "highlight.js/lib/languages/sqf": [
+      0,
+      2,
+      76
+    ],
+    "highlight.js/lib/languages/sql": [
+      0,
+      2,
+      76
+    ],
+    "highlight.js/lib/languages/stan": [
+      0,
+      2,
+      76
+    ],
+    "highlight.js/lib/languages/stata": [
+      0,
+      2,
+      76
+    ],
+    "highlight.js/lib/languages/step21": [
+      0,
+      2,
+      76
+    ],
+    "highlight.js/lib/languages/stylus": [
+      0,
+      2,
+      76
+    ],
+    "highlight.js/lib/languages/subunit": [
+      0,
+      2,
+      76
+    ],
+    "highlight.js/lib/languages/swift": [
+      0,
+      2,
+      76
+    ],
+    "highlight.js/lib/languages/taggerscript": [
+      0,
+      2,
+      76
+    ],
+    "highlight.js/lib/languages/yaml": [
+      0,
+      2,
+      76
+    ],
+    "highlight.js/lib/languages/tap": [
+      0,
+      2,
+      76
+    ],
+    "highlight.js/lib/languages/tcl": [
+      0,
+      2,
+      76
+    ],
+    "highlight.js/lib/languages/tex": [
+      0,
+      2,
+      76
+    ],
+    "highlight.js/lib/languages/thrift": [
+      0,
+      2,
+      76
+    ],
+    "highlight.js/lib/languages/tp": [
+      0,
+      2,
+      76
+    ],
+    "highlight.js/lib/languages/twig": [
+      0,
+      2,
+      76
+    ],
+    "highlight.js/lib/languages/typescript": [
+      0,
+      2,
+      76
+    ],
+    "highlight.js/lib/languages/vala": [
+      0,
+      2,
+      76
+    ],
+    "highlight.js/lib/languages/vbnet": [
+      0,
+      2,
+      76
+    ],
+    "highlight.js/lib/languages/vbscript": [
+      0,
+      2,
+      76
+    ],
+    "highlight.js/lib/languages/vbscript-html": [
+      0,
+      2,
+      76
+    ],
+    "highlight.js/lib/languages/verilog": [
+      0,
+      2,
+      76
+    ],
+    "highlight.js/lib/languages/vhdl": [
+      0,
+      2,
+      76
+    ],
+    "highlight.js/lib/languages/vim": [
+      0,
+      2,
+      76
+    ],
+    "highlight.js/lib/languages/x86asm": [
+      0,
+      2,
+      76
+    ],
+    "highlight.js/lib/languages/xl": [
+      0,
+      2,
+      76
+    ],
+    "highlight.js/lib/languages/xquery": [
+      0,
+      2,
+      76
+    ],
+    "highlight.js/lib/languages/zephir": [
+      0,
+      2,
+      76
+    ],
+    "docsearch.js": [
+      77
+    ],
+    "@theme/NotFound": [
+      0,
+      78
+    ]
+  },
+  "assets": {
+    "0": {
+      "css": [
+        {
+          "file": "0.a5d98dcdf0bbe087ed21.css",
+          "hash": "4ab5fcf0e3315a05f3e7",
+          "publicPath": "/0.a5d98dcdf0bbe087ed21.css"
+        }
+      ],
+      "js": [
+        {
+          "file": "0.4b32e68eb0c1f2ec7fdc.js",
+          "hash": "4ab5fcf0e3315a05f3e7",
+          "publicPath": "/0.4b32e68eb0c1f2ec7fdc.js"
+        }
+      ]
+    },
+    "1": {
+      "css": [
+        {
+          "file": "1.27ddfe0828c980c86fac.css",
+          "hash": "f9b530ff92375395ab1b",
+          "publicPath": "/1.27ddfe0828c980c86fac.css"
+        }
+      ],
+      "js": [
+        {
+          "file": "1.03d30ec9a08dd178696f.js",
+          "hash": "f9b530ff92375395ab1b",
+          "publicPath": "/1.03d30ec9a08dd178696f.js"
+        }
+      ]
+    },
+    "2": {
+      "css": [
+        {
+          "file": "component---site-src-pages-index-jsc-4-f-f99.358a4bd817d0c946a3fc.css",
+          "hash": "476b8ead62f5b8fcfb4d",
+          "publicPath": "/component---site-src-pages-index-jsc-4-f-f99.358a4bd817d0c946a3fc.css"
+        }
+      ],
+      "js": [
+        {
+          "file": "component---site-src-pages-index-jsc-4-f-f99.2a91dd86816a2e078b39.js",
+          "hash": "476b8ead62f5b8fcfb4d",
+          "publicPath": "/component---site-src-pages-index-jsc-4-f-f99.2a91dd86816a2e078b39.js"
+        }
+      ]
+    },
+    "3": {
+      "css": [
+        {
+          "file": "component---theme-blog-list-pagea-6-a-7ba.c0f42af064ae6a8754fe.css",
+          "hash": "9ad996d7f5e693759270",
+          "publicPath": "/component---theme-blog-list-pagea-6-a-7ba.c0f42af064ae6a8754fe.css"
+        }
+      ],
+      "js": [
+        {
+          "file": "component---theme-blog-list-pagea-6-a-7ba.73e7f10320fd40850a08.js",
+          "hash": "9ad996d7f5e693759270",
+          "publicPath": "/component---theme-blog-list-pagea-6-a-7ba.73e7f10320fd40850a08.js"
+        }
+      ]
+    },
+    "4": {
+      "css": [
+        {
+          "file": "component---theme-blog-post-pageccc-cab.c0f42af064ae6a8754fe.css",
+          "hash": "d829daadd9f017c34d71",
+          "publicPath": "/component---theme-blog-post-pageccc-cab.c0f42af064ae6a8754fe.css"
+        }
+      ],
+      "js": [
+        {
+          "file": "component---theme-blog-post-pageccc-cab.36447cbeaf4672bdbb0a.js",
+          "hash": "d829daadd9f017c34d71",
+          "publicPath": "/component---theme-blog-post-pageccc-cab.36447cbeaf4672bdbb0a.js"
+        }
+      ]
+    },
+    "5": {
+      "css": [
+        {
+          "file": "component---theme-doc-item-178-a40.c470f1b94d3c35d1f80c.css",
+          "hash": "b4bbdd602c3169cc2253",
+          "publicPath": "/component---theme-doc-item-178-a40.c470f1b94d3c35d1f80c.css"
+        }
+      ],
+      "js": [
+        {
+          "file": "component---theme-doc-item-178-a40.dcfe4d24a6c17fe56a8e.js",
+          "hash": "b4bbdd602c3169cc2253",
+          "publicPath": "/component---theme-doc-item-178-a40.dcfe4d24a6c17fe56a8e.js"
+        }
+      ]
+    },
+    "6": {
+      "css": [
+        {
+          "file": "component---theme-doc-page-1-be-9be.a8f048a05ef18dca2170.css",
+          "hash": "c36e0746500bb4dee34a",
+          "publicPath": "/component---theme-doc-page-1-be-9be.a8f048a05ef18dca2170.css"
+        }
+      ],
+      "js": [
+        {
+          "file": "component---theme-doc-page-1-be-9be.6cb677395a301dd38f39.js",
+          "hash": "c36e0746500bb4dee34a",
+          "publicPath": "/component---theme-doc-page-1-be-9be.6cb677395a301dd38f39.js"
+        }
+      ]
+    },
+    "7": {
+      "js": [
+        {
+          "file": "content---blog-191-793.474fac1b2a9442c6f41d.js",
+          "hash": "70147c8e8b079fa52d26",
+          "publicPath": "/content---blog-191-793.474fac1b2a9442c6f41d.js"
+        }
+      ]
+    },
+    "8": {
+      "js": [
+        {
+          "file": "content---blog-2015-12-23-neon-node-rustb-3-e-e3c.92f332e2503dff40af3d.js",
+          "hash": "f83e883de65ce9dc41da",
+          "publicPath": "/content---blog-2015-12-23-neon-node-rustb-3-e-e3c.92f332e2503dff40af3d.js"
+        }
+      ]
+    },
+    "9": {
+      "js": [
+        {
+          "file": "content---blog-2016-04-01-native-js-classes-in-neon-29-a-6e2.5fb58c46b15092b83e94.js",
+          "hash": "b0f0de1b1415e8b4a33d",
+          "publicPath": "/content---blog-2016-04-01-native-js-classes-in-neon-29-a-6e2.5fb58c46b15092b83e94.js"
+        }
+      ]
+    },
+    "10": {
+      "js": [
+        {
+          "file": "content---blog-2017-09-25-neon-wants-your-help-25-f-089.77021380abfc9e971d4a.js",
+          "hash": "b415b7e5378b956e4b8a",
+          "publicPath": "/content---blog-2017-09-25-neon-wants-your-help-25-f-089.77021380abfc9e971d4a.js"
+        }
+      ]
+    },
+    "11": {
+      "js": [
+        {
+          "file": "content---blog-2018-01-14-rust-2018-a-neon-wish-listaa-8-a9b.d4e40b9296f12a30ba45.js",
+          "hash": "b845eebf3eb2f42dbe28",
+          "publicPath": "/content---blog-2018-01-14-rust-2018-a-neon-wish-listaa-8-a9b.d4e40b9296f12a30ba45.js"
+        }
+      ]
+    },
+    "12": {
+      "js": [
+        {
+          "file": "content---blog-2018-10-22-hello-worldcbb-e2a.9c2e83dca080d3244ada.js",
+          "hash": "b806180854a9805e1911",
+          "publicPath": "/content---blog-2018-10-22-hello-worldcbb-e2a.9c2e83dca080d3244ada.js"
+        }
+      ]
+    },
+    "13": {
+      "js": [
+        {
+          "file": "content---blog-89-e-b53.f3496b554278894dbcb3.js",
+          "hash": "8c2f7d4ce7bc645286e1",
+          "publicPath": "/content---blog-89-e-b53.f3496b554278894dbcb3.js"
+        }
+      ]
+    },
+    "14": {
+      "js": [
+        {
+          "file": "content---blogab-1-45e.3b4250fe9ebdc796d69f.js",
+          "hash": "4c1750456a5099cb01e0",
+          "publicPath": "/content---blogab-1-45e.3b4250fe9ebdc796d69f.js"
+        }
+      ]
+    },
+    "15": {
+      "js": [
+        {
+          "file": "content---blogccb-196.9e553299d1626cc06c1f.js",
+          "hash": "c1a321af62817410ccf0",
+          "publicPath": "/content---blogccb-196.9e553299d1626cc06c1f.js"
+        }
+      ]
+    },
+    "16": {
+      "js": [
+        {
+          "file": "content---blogcee-0c9.35a29afc27cd16810de8.js",
+          "hash": "e9a1d17f218c90332892",
+          "publicPath": "/content---blogcee-0c9.35a29afc27cd16810de8.js"
+        }
+      ]
+    },
+    "17": {
+      "js": [
+        {
+          "file": "content---docs-arguments-65-b-849.27a11c545b6f77efe63b.js",
+          "hash": "917dff1d90b3f514f030",
+          "publicPath": "/content---docs-arguments-65-b-849.27a11c545b6f77efe63b.js"
+        }
+      ]
+    },
+    "18": {
+      "js": [
+        {
+          "file": "content---docs-arrays-9-fd-c60.d30e218bb32b658d1a14.js",
+          "hash": "6e62f65fc69ec2d876a1",
+          "publicPath": "/content---docs-arrays-9-fd-c60.d30e218bb32b658d1a14.js"
+        }
+      ]
+    },
+    "19": {
+      "js": [
+        {
+          "file": "content---docs-asyncfb-3-195.1e4f9d9fce70d3e72822.js",
+          "hash": "549a71bc63fa159b881a",
+          "publicPath": "/content---docs-asyncfb-3-195.1e4f9d9fce70d3e72822.js"
+        }
+      ]
+    },
+    "20": {
+      "js": [
+        {
+          "file": "content---docs-classes-6-ab-bc0.e97724abcab7f5e0f973.js",
+          "hash": "2c8b0a30f0d8c4e0ae9d",
+          "publicPath": "/content---docs-classes-6-ab-bc0.e97724abcab7f5e0f973.js"
+        }
+      ]
+    },
+    "21": {
+      "js": [
+        {
+          "file": "content---docs-cli-1-a-2-6cb.e94cdc72798fd33b5de1.js",
+          "hash": "75bda613a05919941208",
+          "publicPath": "/content---docs-cli-1-a-2-6cb.e94cdc72798fd33b5de1.js"
+        }
+      ]
+    },
+    "22": {
+      "js": [
+        {
+          "file": "content---docs-electron-appse-84-526.e320a6ed69c2a41c286b.js",
+          "hash": "76d75d82e3b773a9ba49",
+          "publicPath": "/content---docs-electron-appse-84-526.e320a6ed69c2a41c286b.js"
+        }
+      ]
+    },
+    "23": {
+      "js": [
+        {
+          "file": "content---docs-errors-8-a-2-a16.12605c450703a8b6a2c8.js",
+          "hash": "705b4991881a338bc492",
+          "publicPath": "/content---docs-errors-8-a-2-a16.12605c450703a8b6a2c8.js"
+        }
+      ]
+    },
+    "24": {
+      "js": [
+        {
+          "file": "content---docs-example-projectsb-58-8db.bc2ed6fe936cd03acdcc.js",
+          "hash": "4b0a282b542e6501b601",
+          "publicPath": "/content---docs-example-projectsb-58-8db.bc2ed6fe936cd03acdcc.js"
+        }
+      ]
+    },
+    "25": {
+      "js": [
+        {
+          "file": "content---docs-functionsd-47-b12.825c08790d5c907de1c2.js",
+          "hash": "0c5a17570b6db8972d22",
+          "publicPath": "/content---docs-functionsd-47-b12.825c08790d5c907de1c2.js"
+        }
+      ]
+    },
+    "26": {
+      "js": [
+        {
+          "file": "content---docs-getting-startedd-58-f94.d93c973f3a74b9cf8a8b.js",
+          "hash": "a7e755ee8cb329dd76c0",
+          "publicPath": "/content---docs-getting-startedd-58-f94.d93c973f3a74b9cf8a8b.js"
+        }
+      ]
+    },
+    "27": {
+      "js": [
+        {
+          "file": "content---docs-guidesd-7-b-d2a.3dfa0fb062962a42be41.js",
+          "hash": "ed5e22ffc2baf07e7838",
+          "publicPath": "/content---docs-guidesd-7-b-d2a.3dfa0fb062962a42be41.js"
+        }
+      ]
+    },
+    "28": {
+      "js": [
+        {
+          "file": "content---docs-hello-world-900-633.71c85551fa776908b910.js",
+          "hash": "d5ce5435530543342e1f",
+          "publicPath": "/content---docs-hello-world-900-633.71c85551fa776908b910.js"
+        }
+      ]
+    },
+    "29": {
+      "js": [
+        {
+          "file": "content---docs-intro-0-e-3-be1.b1a242e06b95809eedbf.js",
+          "hash": "0a02721b377aab595039",
+          "publicPath": "/content---docs-intro-0-e-3-be1.b1a242e06b95809eedbf.js"
+        }
+      ]
+    },
+    "30": {
+      "js": [
+        {
+          "file": "content---docs-json-3-ad-4fa.dc25962d98070bdeab6a.js",
+          "hash": "b145f228af84ececa2ec",
+          "publicPath": "/content---docs-json-3-ad-4fa.dc25962d98070bdeab6a.js"
+        }
+      ]
+    },
+    "31": {
+      "js": [
+        {
+          "file": "content---docs-learning-resources-4-bb-6d1.21c5d52d965b76ced6d2.js",
+          "hash": "3e7870a07f3e3d761d55",
+          "publicPath": "/content---docs-learning-resources-4-bb-6d1.21c5d52d965b76ced6d2.js"
+        }
+      ]
+    },
+    "32": {
+      "js": [
+        {
+          "file": "content---docs-modules-23-d-147.d30eeae6bf40eefc0142.js",
+          "hash": "5d7672ee3f6917026991",
+          "publicPath": "/content---docs-modules-23-d-147.d30eeae6bf40eefc0142.js"
+        }
+      ]
+    },
+    "33": {
+      "js": [
+        {
+          "file": "content---docs-objectsb-51-593.a3c7b0eb268ec18fb7fd.js",
+          "hash": "58666cbcf7aaeb76274f",
+          "publicPath": "/content---docs-objectsb-51-593.a3c7b0eb268ec18fb7fd.js"
+        }
+      ]
+    },
+    "34": {
+      "js": [
+        {
+          "file": "content---docs-parallelism-003-d1d.5fdd457a34fd47536330.js",
+          "hash": "bad29bf29c2e0765b408",
+          "publicPath": "/content---docs-parallelism-003-d1d.5fdd457a34fd47536330.js"
+        }
+      ]
+    },
+    "35": {
+      "js": [
+        {
+          "file": "content---docs-primitivesf-05-214.bbaf552a7566ee42a57c.js",
+          "hash": "db4130b467ca83c17f7e",
+          "publicPath": "/content---docs-primitivesf-05-214.bbaf552a7566ee42a57c.js"
+        }
+      ]
+    },
+    "36": {
+      "js": [
+        {
+          "file": "content---docs-publishing-2-d-2-25a.046de2bde92ef2af4b11.js",
+          "hash": "205898c1386c8f983432",
+          "publicPath": "/content---docs-publishing-2-d-2-25a.046de2bde92ef2af4b11.js"
+        }
+      ]
+    },
+    "37": {
+      "js": [
+        {
+          "file": "content---docs-roadmap-0-df-a69.f24a83550845276e512f.js",
+          "hash": "db31373426f15b9ae298",
+          "publicPath": "/content---docs-roadmap-0-df-a69.f24a83550845276e512f.js"
+        }
+      ]
+    },
+    "38": {
+      "js": [
+        {
+          "file": "content---docs-sdl-2-guide-658-6b7.b65129e9b6a7bd910e14.js",
+          "hash": "a2cd5ed8ae43cdfc24c0",
+          "publicPath": "/content---docs-sdl-2-guide-658-6b7.b65129e9b6a7bd910e14.js"
+        }
+      ]
+    },
+    "39": {
+      "js": [
+        {
+          "file": "content---docs-tooling-12-e-380.dbdbc7b7f67d5a1845e6.js",
+          "hash": "55e343627e76da6f7afc",
+          "publicPath": "/content---docs-tooling-12-e-380.dbdbc7b7f67d5a1845e6.js"
+        }
+      ]
+    },
+    "40": {
+      "js": [
+        {
+          "file": "content---docs-type-checking-02-d-2e2.5cff8f9e050f73f1c40a.js",
+          "hash": "8f11bb64a7d8efe3bdae",
+          "publicPath": "/content---docs-type-checking-02-d-2e2.5cff8f9e050f73f1c40a.js"
+        }
+      ]
+    },
+    "41": {
+      "js": [
+        {
+          "file": "content---docs-word-counting-99-f-4ea.0edd4083dd0955dfd419.js",
+          "hash": "820e66387d245f70ee94",
+          "publicPath": "/content---docs-word-counting-99-f-4ea.0edd4083dd0955dfd419.js"
+        }
+      ]
+    },
+    "42": {
+      "js": [
+        {
+          "file": "docsMetadata---docs-1-da-721.d68ec240f1ded33b1703.js",
+          "hash": "b5022228bbe2bed1693e",
+          "publicPath": "/docsMetadata---docs-1-da-721.d68ec240f1ded33b1703.js"
+        }
+      ]
+    },
+    "43": {
+      "css": [
+        {
+          "file": "main.9b0aefc2eff372e483a4.css",
+          "hash": "cad11850500e8280c59d",
+          "publicPath": "/main.9b0aefc2eff372e483a4.css"
+        }
+      ],
+      "js": [
+        {
+          "file": "main.ce136d421303be087674.js",
+          "hash": "cad11850500e8280c59d",
+          "publicPath": "/main.ce136d421303be087674.js"
+        }
+      ]
+    },
+    "44": {
+      "js": [
+        {
+          "file": "metadata---blog-1-a-9-d63.696b05f19503cdb900a9.js",
+          "hash": "95216c6f3cdd28ed83b0",
+          "publicPath": "/metadata---blog-1-a-9-d63.696b05f19503cdb900a9.js"
+        }
+      ]
+    },
+    "45": {
+      "js": [
+        {
+          "file": "metadata---blog-2018-10-22-hello-world-75-b-360.cf00bf416a5b3b17ba73.js",
+          "hash": "cd97d2e522e2ff9304f9",
+          "publicPath": "/metadata---blog-2018-10-22-hello-world-75-b-360.cf00bf416a5b3b17ba73.js"
+        }
+      ]
+    },
+    "46": {
+      "js": [
+        {
+          "file": "metadata---docs-arguments-6-fe-fea.6f6fc2e73206d1707220.js",
+          "hash": "1cb2739ed6017fb630e8",
+          "publicPath": "/metadata---docs-arguments-6-fe-fea.6f6fc2e73206d1707220.js"
+        }
+      ]
+    },
+    "47": {
+      "js": [
+        {
+          "file": "metadata---docs-arraysb-79-a81.dae7611ea3f45f79ec5f.js",
+          "hash": "2d629907f38f8075a4d9",
+          "publicPath": "/metadata---docs-arraysb-79-a81.dae7611ea3f45f79ec5f.js"
+        }
+      ]
+    },
+    "48": {
+      "js": [
+        {
+          "file": "metadata---docs-async-86-c-1cb.a65961fe48cd126dfb71.js",
+          "hash": "86d13cfde783634d1b15",
+          "publicPath": "/metadata---docs-async-86-c-1cb.a65961fe48cd126dfb71.js"
+        }
+      ]
+    },
+    "49": {
+      "js": [
+        {
+          "file": "metadata---docs-classesb-07-47b.6c736a451e9b8a4659c7.js",
+          "hash": "ca144c675109184a5f33",
+          "publicPath": "/metadata---docs-classesb-07-47b.6c736a451e9b8a4659c7.js"
+        }
+      ]
+    },
+    "50": {
+      "js": [
+        {
+          "file": "metadata---docs-cli-7-a-6-ef7.c408f1608730c2e9216c.js",
+          "hash": "7502ef46c2783403a729",
+          "publicPath": "/metadata---docs-cli-7-a-6-ef7.c408f1608730c2e9216c.js"
+        }
+      ]
+    },
+    "51": {
+      "js": [
+        {
+          "file": "metadata---docs-electron-apps-0-a-0-79d.96091e219ebaf6ac16fb.js",
+          "hash": "dccffea1ee95785aaf71",
+          "publicPath": "/metadata---docs-electron-apps-0-a-0-79d.96091e219ebaf6ac16fb.js"
+        }
+      ]
+    },
+    "52": {
+      "js": [
+        {
+          "file": "metadata---docs-errorsc-0-a-e30.b6e4b47f7d696e783d0c.js",
+          "hash": "1c1b7ad685a0e1a65713",
+          "publicPath": "/metadata---docs-errorsc-0-a-e30.b6e4b47f7d696e783d0c.js"
+        }
+      ]
+    },
+    "53": {
+      "js": [
+        {
+          "file": "metadata---docs-example-projectse-85-8bd.1aed2d1018eeb656b64b.js",
+          "hash": "d7a0f0c0a4012394839c",
+          "publicPath": "/metadata---docs-example-projectse-85-8bd.1aed2d1018eeb656b64b.js"
+        }
+      ]
+    },
+    "54": {
+      "js": [
+        {
+          "file": "metadata---docs-functions-725-8e7.443068cd691c864e31f1.js",
+          "hash": "1015408f6a0a20fbbbfe",
+          "publicPath": "/metadata---docs-functions-725-8e7.443068cd691c864e31f1.js"
+        }
+      ]
+    },
+    "55": {
+      "js": [
+        {
+          "file": "metadata---docs-getting-started-57-d-ca5.9fb2dc6a6354cbe144b3.js",
+          "hash": "40f15eb28df9e0f8839b",
+          "publicPath": "/metadata---docs-getting-started-57-d-ca5.9fb2dc6a6354cbe144b3.js"
+        }
+      ]
+    },
+    "56": {
+      "js": [
+        {
+          "file": "metadata---docs-guides-390-64f.4e2cfd551a2c40db4fd8.js",
+          "hash": "2f3f1e5dacb3f6501749",
+          "publicPath": "/metadata---docs-guides-390-64f.4e2cfd551a2c40db4fd8.js"
+        }
+      ]
+    },
+    "57": {
+      "js": [
+        {
+          "file": "metadata---docs-hello-world-5-fa-289.cb3986e83797f3498581.js",
+          "hash": "6b607207ef3ee7b444b3",
+          "publicPath": "/metadata---docs-hello-world-5-fa-289.cb3986e83797f3498581.js"
+        }
+      ]
+    },
+    "58": {
+      "js": [
+        {
+          "file": "metadata---docs-intro-368-f5c.339f392dcb2bae9010b9.js",
+          "hash": "2a86d0c43b5589c3a6ac",
+          "publicPath": "/metadata---docs-intro-368-f5c.339f392dcb2bae9010b9.js"
+        }
+      ]
+    },
+    "59": {
+      "js": [
+        {
+          "file": "metadata---docs-json-9-f-3-aa7.6629bcfb52562e966de2.js",
+          "hash": "674d31bc20b14d1e9857",
+          "publicPath": "/metadata---docs-json-9-f-3-aa7.6629bcfb52562e966de2.js"
+        }
+      ]
+    },
+    "60": {
+      "js": [
+        {
+          "file": "metadata---docs-learning-resources-8-f-4-098.8c5974a7dfdb730d48ee.js",
+          "hash": "5aca3399652a60ea0c21",
+          "publicPath": "/metadata---docs-learning-resources-8-f-4-098.8c5974a7dfdb730d48ee.js"
+        }
+      ]
+    },
+    "61": {
+      "js": [
+        {
+          "file": "metadata---docs-modules-572-72c.107aa54049ea7892401b.js",
+          "hash": "e03541248d1e28c354d2",
+          "publicPath": "/metadata---docs-modules-572-72c.107aa54049ea7892401b.js"
+        }
+      ]
+    },
+    "62": {
+      "js": [
+        {
+          "file": "metadata---docs-objects-066-5ec.683c31640e7d5d5208b7.js",
+          "hash": "48885ce643fb93573612",
+          "publicPath": "/metadata---docs-objects-066-5ec.683c31640e7d5d5208b7.js"
+        }
+      ]
+    },
+    "63": {
+      "js": [
+        {
+          "file": "metadata---docs-parallelismc-81-633.34928c00cdaff7659b77.js",
+          "hash": "c01b754f134e56444f14",
+          "publicPath": "/metadata---docs-parallelismc-81-633.34928c00cdaff7659b77.js"
+        }
+      ]
+    },
+    "64": {
+      "js": [
+        {
+          "file": "metadata---docs-primitivesd-85-9c2.88516f2adfaf46b2ecf0.js",
+          "hash": "650b944f93024335bdac",
+          "publicPath": "/metadata---docs-primitivesd-85-9c2.88516f2adfaf46b2ecf0.js"
+        }
+      ]
+    },
+    "65": {
+      "js": [
+        {
+          "file": "metadata---docs-publishinge-62-bbf.a21a2352962284f3b2a6.js",
+          "hash": "3ab822a4e7cab97f0f36",
+          "publicPath": "/metadata---docs-publishinge-62-bbf.a21a2352962284f3b2a6.js"
+        }
+      ]
+    },
+    "66": {
+      "js": [
+        {
+          "file": "metadata---docs-roadmap-5-f-6-348.4069d1614382e4654244.js",
+          "hash": "bebc92303a51d3bbc672",
+          "publicPath": "/metadata---docs-roadmap-5-f-6-348.4069d1614382e4654244.js"
+        }
+      ]
+    },
+    "67": {
+      "js": [
+        {
+          "file": "metadata---docs-sdl-2-guide-958-5dd.c173b42240542fc11174.js",
+          "hash": "c0acc19a49aedd90acf4",
+          "publicPath": "/metadata---docs-sdl-2-guide-958-5dd.c173b42240542fc11174.js"
+        }
+      ]
+    },
+    "68": {
+      "js": [
+        {
+          "file": "metadata---docs-tooling-6-ec-0db.d26b077698a34d0feade.js",
+          "hash": "126e33d66967b1b7a36c",
+          "publicPath": "/metadata---docs-tooling-6-ec-0db.d26b077698a34d0feade.js"
+        }
+      ]
+    },
+    "69": {
+      "js": [
+        {
+          "file": "metadata---docs-type-checking-45-c-033.0a44400b6a3396a8465b.js",
+          "hash": "581a0ef1825ff5b5cd14",
+          "publicPath": "/metadata---docs-type-checking-45-c-033.0a44400b6a3396a8465b.js"
+        }
+      ]
+    },
+    "70": {
+      "js": [
+        {
+          "file": "metadata---docs-word-countingb-5-c-379.219638f42341c7ba7e07.js",
+          "hash": "39053eb2189504e2c6f4",
+          "publicPath": "/metadata---docs-word-countingb-5-c-379.219638f42341c7ba7e07.js"
+        }
+      ]
+    },
+    "71": {
+      "js": [
+        {
+          "file": "nextItem---blog-2016-04-01-native-js-classes-in-neon-81-a-35c.e8b0ad36e6019cc5a771.js",
+          "hash": "8d926a16374303fdbb4e",
+          "publicPath": "/nextItem---blog-2016-04-01-native-js-classes-in-neon-81-a-35c.e8b0ad36e6019cc5a771.js"
+        }
+      ]
+    },
+    "72": {
+      "js": [
+        {
+          "file": "nextItem---blog-2017-09-25-neon-wants-your-helpbc-0-72a.38139701f750bf113b09.js",
+          "hash": "4eb6fa12d8ae130b099b",
+          "publicPath": "/nextItem---blog-2017-09-25-neon-wants-your-helpbc-0-72a.38139701f750bf113b09.js"
+        }
+      ]
+    },
+    "73": {
+      "js": [
+        {
+          "file": "nextItem---blog-2018-01-14-rust-2018-a-neon-wish-listcea-8d0.e89b81c942fed6090d10.js",
+          "hash": "93f37bae6e5dde6f81ac",
+          "publicPath": "/nextItem---blog-2018-01-14-rust-2018-a-neon-wish-listcea-8d0.e89b81c942fed6090d10.js"
+        }
+      ]
+    },
+    "74": {
+      "js": [
+        {
+          "file": "nextItem---blog-2018-10-22-hello-world-473-b89.d99cc84a55b8ebae18d6.js",
+          "hash": "4a0560dce2e6f0070f88",
+          "publicPath": "/nextItem---blog-2018-10-22-hello-world-473-b89.d99cc84a55b8ebae18d6.js"
+        }
+      ]
+    },
+    "75": {
+      "js": [
+        {
+          "file": "runtime~main.4065e0513f6e595f784e.js",
+          "hash": "654f13c7320b0d5c4dad",
+          "publicPath": "/runtime~main.4065e0513f6e595f784e.js"
+        }
+      ]
+    },
+    "76": {
+      "js": [
+        {
+          "file": "76.3d9399dd7daefccf6fe6.js",
+          "hash": "776cbdc7701f633bb2b6",
+          "publicPath": "/76.3d9399dd7daefccf6fe6.js"
+        }
+      ]
+    },
+    "77": {
+      "js": [
+        {
+          "file": "77.aaeba24474f3fd7ce796.js",
+          "hash": "2b1d17c38a202d9be931",
+          "publicPath": "/77.aaeba24474f3fd7ce796.js"
+        }
+      ]
+    },
+    "78": {
+      "js": [
+        {
+          "file": "78.2e329e33bda4fd486986.js",
+          "hash": "173677cc049eca7863c4",
+          "publicPath": "/78.2e329e33bda4fd486986.js"
+        }
+      ]
+    }
+  }
+}

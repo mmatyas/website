@@ -1,0 +1,1 @@
+(window.webpackJsonp=window.webpackJsonp||[]).push([[50],{172:function(i){i.exports=JSON.parse('{"id":"cli","title":"CLI","sidebar_label":"CLI","description":"## `neon new`","source":"@site/docs/cli.md","permalink":"/docs/cli","sidebar":"docs","next":{"title":"Primitives","permalink":"/docs/primitives"},"previous":{"title":"Hello World!","permalink":"/docs/hello-world"}}')}}]);
