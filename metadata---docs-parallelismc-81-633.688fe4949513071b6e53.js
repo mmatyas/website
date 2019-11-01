@@ -1,0 +1,1 @@
+(window.webpackJsonp=window.webpackJsonp||[]).push([[63],{190:function(l){l.exports=JSON.parse('{"id":"parallelism","title":"Parallelism","sidebar_label":"Parallelism","description":"## Simple Example","source":"@site/docs/parallisim.md","permalink":"/docs/parallelism"}')}}]);
