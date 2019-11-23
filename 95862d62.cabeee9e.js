@@ -1,0 +1,1 @@
+(window.webpackJsonp=window.webpackJsonp||[]).push([[42],{162:function(i){i.exports=JSON.parse('{"id":"sdl2-guide","title":"SDL2 Bindings","sidebar_label":"SDL2 Bindings","description":"**This doc is currently a work in progress**","source":"@site/docs/sdl2-crate-guide.md","permalink":"/docs/sdl2-guide"}')}}]);

@@ -1,0 +1,1 @@
+(window.webpackJsonp=window.webpackJsonp||[]).push([[19],{139:function(e){e.exports=JSON.parse('{"id":"guides","title":"Guides","sidebar_label":"Guides","description":"## Word Counting","source":"@site/docs/guides.md","permalink":"/docs/guides"}')}}]);
