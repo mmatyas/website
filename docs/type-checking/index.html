@@ -13,28 +13,28 @@
 <link data-react-helmet="true" rel="shortcut icon" href="/logo/letter-logo.png">
 
 
-<link rel="stylesheet" href="/styles.fe9ffa1b.css">
+<link rel="stylesheet" href="/styles.7e42871b.css">
 
 
-<link rel="preload" href="/styles.eb4f4695.js" as="script">
+<link rel="preload" href="/styles.0fde1747.js" as="script">
 
-<link rel="preload" href="/runtime~main.0956d89d.js" as="script">
+<link rel="preload" href="/runtime~main.a8b8e96c.js" as="script">
 
-<link rel="preload" href="/main.0805dba6.js" as="script">
+<link rel="preload" href="/main.7a0352d1.js" as="script">
 
-<link rel="preload" href="/1.5b2fa6c8.js" as="script">
+<link rel="preload" href="/1.b030cc07.js" as="script">
 
-<link rel="preload" href="/2.ddcaf4f9.js" as="script">
+<link rel="preload" href="/2.7543236e.js" as="script">
 
-<link rel="preload" href="/3.9174621c.js" as="script">
+<link rel="preload" href="/3.8dbb5107.js" as="script">
 
-<link rel="preload" href="/1be78505.7999be06.js" as="script">
+<link rel="preload" href="/1be78505.e679768e.js" as="script">
 
 <link rel="preload" href="/20ac7829.0ebc76df.js" as="script">
 
-<link rel="preload" href="/17896441.748aeafa.js" as="script">
+<link rel="preload" href="/17896441.a264d596.js" as="script">
 
-<link rel="preload" href="/02dcd059.98308d87.js" as="script">
+<link rel="preload" href="/02dcd059.fa3baf74.js" as="script">
 
 </head>
 <body>
@@ -44,25 +44,25 @@
 This method does not require an execution context because it only copies a handle.</p><h2><a aria-hidden="true" tabindex="-1" class="anchor enhancedAnchor_ZqCz" id="downcasting"></a><a aria-hidden="true" tabindex="-1" class="hash-link" href="#downcasting" title="Direct link to heading">#</a>Downcasting</h2><p>Attempts to downcast a handle to another type, which may fail. A failure to downcast does not throw a JavaScript exception, so it&#x27;s OK to continue interacting with the JS engine if this method produces an <code>Err</code> result.</p><div class="mdxCodeBlock_iHAB"><div class="codeBlockWrapper_3ZcX"><pre class="prism-code language-rust codeBlock_1wn8" style="color:#bfc7d5;background-color:#292d3e"><div class="token-line" style="color:#bfc7d5"><span class="token comment" style="color:rgb(105, 112, 152);font-style:italic">// --snip</span><span class="token plain"></span></div><div class="token-line" style="color:#bfc7d5"><span class="token plain">cx</span><span class="token punctuation" style="color:rgb(199, 146, 234)">.</span><span class="token function" style="color:rgb(130, 170, 255)">number</span><span class="token punctuation" style="color:rgb(199, 146, 234)">(</span><span class="token number" style="color:rgb(247, 140, 108)">17</span><span class="token punctuation" style="color:rgb(199, 146, 234)">)</span><span class="token punctuation" style="color:rgb(199, 146, 234)">.</span><span class="token function" style="color:rgb(130, 170, 255)">downcast</span><span class="token punctuation" style="color:rgb(199, 146, 234)">(</span><span class="token punctuation" style="color:rgb(199, 146, 234)">)</span><span class="token punctuation" style="color:rgb(199, 146, 234)">;</span><span class="token plain"></span></div><div class="token-line" style="color:#bfc7d5"><span class="token plain">cx</span><span class="token punctuation" style="color:rgb(199, 146, 234)">.</span><span class="token function" style="color:rgb(130, 170, 255)">number</span><span class="token punctuation" style="color:rgb(199, 146, 234)">(</span><span class="token number" style="color:rgb(247, 140, 108)">17</span><span class="token punctuation" style="color:rgb(199, 146, 234)">)</span><span class="token punctuation" style="color:rgb(199, 146, 234)">.</span><span class="token function" style="color:rgb(130, 170, 255)">downcast_or_throw</span><span class="token punctuation" style="color:rgb(199, 146, 234)">(</span><span class="token punctuation" style="color:rgb(199, 146, 234)">)</span><span class="token punctuation" style="color:rgb(199, 146, 234)">;</span><span class="token plain"></span></div><div class="token-line" style="color:#bfc7d5"><span class="token plain"></span><span class="token comment" style="color:rgb(105, 112, 152);font-style:italic">// --snip--</span></div></pre><button type="button" aria-label="Copy code to clipboard" class="copyButton_1PCb">Copy</button></div></div><h2><a aria-hidden="true" tabindex="-1" class="anchor enhancedAnchor_ZqCz" id="checking-types"></a><a aria-hidden="true" tabindex="-1" class="hash-link" href="#checking-types" title="Direct link to heading">#</a>Checking Types</h2><p>Test whether this value is an instance of the given type.</p><div class="mdxCodeBlock_iHAB"><div class="codeBlockWrapper_3ZcX"><pre class="prism-code language-rust codeBlock_1wn8" style="color:#bfc7d5;background-color:#292d3e"><div class="token-line" style="color:#bfc7d5"><span class="token comment" style="color:rgb(105, 112, 152);font-style:italic">// --snip--</span><span class="token plain"></span></div><div class="token-line" style="color:#bfc7d5"><span class="token plain"></span><span class="token keyword" style="font-style:italic">let</span><span class="token plain"> v</span><span class="token punctuation" style="color:rgb(199, 146, 234)">:</span><span class="token plain"> Handle</span><span class="token operator" style="color:rgb(137, 221, 255)">&lt;</span><span class="token plain">JsValue</span><span class="token operator" style="color:rgb(137, 221, 255)">&gt;</span><span class="token plain"> </span><span class="token operator" style="color:rgb(137, 221, 255)">=</span><span class="token plain"> cx</span><span class="token punctuation" style="color:rgb(199, 146, 234)">.</span><span class="token function" style="color:rgb(130, 170, 255)">number</span><span class="token punctuation" style="color:rgb(199, 146, 234)">(</span><span class="token number" style="color:rgb(247, 140, 108)">17</span><span class="token punctuation" style="color:rgb(199, 146, 234)">)</span><span class="token punctuation" style="color:rgb(199, 146, 234)">.</span><span class="token function" style="color:rgb(130, 170, 255)">upcast</span><span class="token punctuation" style="color:rgb(199, 146, 234)">(</span><span class="token punctuation" style="color:rgb(199, 146, 234)">)</span><span class="token punctuation" style="color:rgb(199, 146, 234)">;</span><span class="token plain"></span></div><div class="token-line" style="color:#bfc7d5"><span class="token plain">v</span><span class="token punctuation" style="color:rgb(199, 146, 234)">.</span><span class="token plain">is_a</span><span class="token punctuation" style="color:rgb(199, 146, 234)">::</span><span class="token operator" style="color:rgb(137, 221, 255)">&lt;</span><span class="token plain">JsString</span><span class="token operator" style="color:rgb(137, 221, 255)">&gt;</span><span class="token punctuation" style="color:rgb(199, 146, 234)">(</span><span class="token punctuation" style="color:rgb(199, 146, 234)">)</span><span class="token punctuation" style="color:rgb(199, 146, 234)">;</span><span class="token plain"> </span><span class="token comment" style="color:rgb(105, 112, 152);font-style:italic">// false</span><span class="token plain"></span></div><div class="token-line" style="color:#bfc7d5"><span class="token plain">v</span><span class="token punctuation" style="color:rgb(199, 146, 234)">.</span><span class="token plain">is_a</span><span class="token punctuation" style="color:rgb(199, 146, 234)">::</span><span class="token operator" style="color:rgb(137, 221, 255)">&lt;</span><span class="token plain">JsNumber</span><span class="token operator" style="color:rgb(137, 221, 255)">&gt;</span><span class="token punctuation" style="color:rgb(199, 146, 234)">(</span><span class="token punctuation" style="color:rgb(199, 146, 234)">)</span><span class="token punctuation" style="color:rgb(199, 146, 234)">;</span><span class="token plain"> </span><span class="token comment" style="color:rgb(105, 112, 152);font-style:italic">// true</span><span class="token plain"></span></div><div class="token-line" style="color:#bfc7d5"><span class="token plain">v</span><span class="token punctuation" style="color:rgb(199, 146, 234)">.</span><span class="token plain">is_a</span><span class="token punctuation" style="color:rgb(199, 146, 234)">::</span><span class="token operator" style="color:rgb(137, 221, 255)">&lt;</span><span class="token plain">JsValue</span><span class="token operator" style="color:rgb(137, 221, 255)">&gt;</span><span class="token punctuation" style="color:rgb(199, 146, 234)">(</span><span class="token punctuation" style="color:rgb(199, 146, 234)">)</span><span class="token punctuation" style="color:rgb(199, 146, 234)">;</span><span class="token plain">  </span><span class="token comment" style="color:rgb(105, 112, 152);font-style:italic">// true</span><span class="token plain"></span></div><div class="token-line" style="color:#bfc7d5"><span class="token plain"></span><span class="token comment" style="color:rgb(105, 112, 152);font-style:italic">// --snip--</span></div></pre><button type="button" aria-label="Copy code to clipboard" class="copyButton_1PCb">Copy</button></div></div></div></article><div class="margin-vert--lg"><nav class="pagination-nav"><div class="pagination-nav__item"><a class="pagination-nav__link" href="/docs/arguments"><h5 class="pagination-nav__link--sublabel">Previous</h5><h4 class="pagination-nav__link--label">« Arguments</h4></a></div><div class="pagination-nav__item pagination-nav__item--next"><a class="pagination-nav__link" href="/docs/functions"><h5 class="pagination-nav__link--sublabel">Next</h5><h4 class="pagination-nav__link--label">Functions »</h4></a></div></nav></div></div></div><div class="col col--3"><div class="tableOfContents_TbNY"><ul class="contents contents__left-border"><li><a href="#upcasting" class="contents__link">Upcasting</a></li><li><a href="#downcasting" class="contents__link">Downcasting</a></li><li><a href="#checking-types" class="contents__link">Checking Types</a></li></ul></div></div></div></div></div></main></div></div><footer class="footer footer--dark"><div class="container"><div class="row footer__links"><div class="col footer__col"><h4 class="footer__title">Docs</h4><ul class="footer__items"><li class="footer__item"><a class="footer__link-item" label="Getting Started" href="/docs/getting-started">Getting Started</a></li><li class="footer__item"><a class="footer__link-item" label="Examples" to="https://github.com/neon-bindings/examples" href="https://github.com/neon-bindings/examples">Examples</a></li><li class="footer__item"><a class="footer__link-item" label="API Reference" to="https://docs.rs/neon" href="https://docs.rs/neon">API Reference</a></li></ul></div><div class="col footer__col"><h4 class="footer__title">Community</h4><ul class="footer__items"><li class="footer__item"><a class="footer__link-item" label="Community Chat" to="https://rust-bindings-slackin.herokuapp.com" href="https://rust-bindings-slackin.herokuapp.com">Community Chat</a></li><li class="footer__item"><a class="footer__link-item" label="Twitter" to="https://twitter.com/rustneon" href="https://twitter.com/rustneon">Twitter</a></li></ul></div><div class="col footer__col"><h4 class="footer__title">More</h4><ul class="footer__items"><li class="footer__item"><a class="footer__link-item" label="GitHub" to="https://github.com/neon-bindings/neon" href="https://github.com/neon-bindings/neon">GitHub</a></li></ul></div></div><div class="text--center logoContainer_c2nu"><div class="margin-bottom--sm"><img class="footer__logo" alt="Neon Logo" src="/logo/text-logo.svg"></div><div class="sponsor_2a7p"><a href="https://www.netlify.com"><img src="https://www.netlify.com/img/global/badges/netlify-color-accent.svg" alt="netlify sponsor"></a></div>Copyright © 2020 Neon Bindings</div></div></footer>
 </div>
 
-<script src="/styles.eb4f4695.js"></script>
+<script src="/styles.0fde1747.js"></script>
 
-<script src="/runtime~main.0956d89d.js"></script>
+<script src="/runtime~main.a8b8e96c.js"></script>
 
-<script src="/main.0805dba6.js"></script>
+<script src="/main.7a0352d1.js"></script>
 
-<script src="/1.5b2fa6c8.js"></script>
+<script src="/1.b030cc07.js"></script>
 
-<script src="/2.ddcaf4f9.js"></script>
+<script src="/2.7543236e.js"></script>
 
-<script src="/3.9174621c.js"></script>
+<script src="/3.8dbb5107.js"></script>
 
-<script src="/1be78505.7999be06.js"></script>
+<script src="/1be78505.e679768e.js"></script>
 
 <script src="/20ac7829.0ebc76df.js"></script>
 
-<script src="/17896441.748aeafa.js"></script>
+<script src="/17896441.a264d596.js"></script>
 
-<script src="/02dcd059.98308d87.js"></script>
+<script src="/02dcd059.fa3baf74.js"></script>
 
 
 </body>

@@ -13,28 +13,28 @@
 <link data-react-helmet="true" rel="shortcut icon" href="/logo/letter-logo.png">
 
 
-<link rel="stylesheet" href="/styles.fe9ffa1b.css">
+<link rel="stylesheet" href="/styles.7e42871b.css">
 
 
-<link rel="preload" href="/styles.eb4f4695.js" as="script">
+<link rel="preload" href="/styles.0fde1747.js" as="script">
 
-<link rel="preload" href="/runtime~main.0956d89d.js" as="script">
+<link rel="preload" href="/runtime~main.a8b8e96c.js" as="script">
 
-<link rel="preload" href="/main.0805dba6.js" as="script">
+<link rel="preload" href="/main.7a0352d1.js" as="script">
 
-<link rel="preload" href="/1.5b2fa6c8.js" as="script">
+<link rel="preload" href="/1.b030cc07.js" as="script">
 
-<link rel="preload" href="/2.ddcaf4f9.js" as="script">
+<link rel="preload" href="/2.7543236e.js" as="script">
 
-<link rel="preload" href="/3.9174621c.js" as="script">
+<link rel="preload" href="/3.8dbb5107.js" as="script">
 
-<link rel="preload" href="/1be78505.7999be06.js" as="script">
+<link rel="preload" href="/1be78505.e679768e.js" as="script">
 
 <link rel="preload" href="/20ac7829.0ebc76df.js" as="script">
 
-<link rel="preload" href="/17896441.748aeafa.js" as="script">
+<link rel="preload" href="/17896441.a264d596.js" as="script">
 
-<link rel="preload" href="/2d28018b.55679032.js" as="script">
+<link rel="preload" href="/2d28018b.a4af743d.js" as="script">
 
 </head>
 <body>
@@ -44,25 +44,25 @@
 For more details on <a href="https://github.com/bchr02/node-pre-gyp-github"><code>node-pre-gyp-github</code>&#x27;s <code>README</code></a> for more details on publishing options</p><p>Now you can publish binaries only on a specific commit. To do this you could borrow from the Travis CI idea of commit keywords and add special handling for commit messages with [publish binary]:</p><div class="mdxCodeBlock_iHAB"><div class="codeBlockWrapper_3ZcX"><pre class="prism-code language-bash codeBlock_1wn8" style="color:#bfc7d5;background-color:#292d3e"><div class="token-line" style="color:#bfc7d5"><span class="token function" style="color:rgb(130, 170, 255)">git</span><span class="token plain"> commit -a -m </span><span class="token string" style="color:rgb(195, 232, 141)">&quot;[publish binary]&quot;</span></div></pre><button type="button" aria-label="Copy code to clipboard" class="copyButton_1PCb">Copy</button></div></div><p>Or, if you don&#x27;t have any changes to make simply run:</p><div class="mdxCodeBlock_iHAB"><div class="codeBlockWrapper_3ZcX"><pre class="prism-code language-bash codeBlock_1wn8" style="color:#bfc7d5;background-color:#292d3e"><div class="token-line" style="color:#bfc7d5"><span class="token function" style="color:rgb(130, 170, 255)">git</span><span class="token plain"> commit --allow-empty -m </span><span class="token string" style="color:rgb(195, 232, 141)">&quot;[publish binary]&quot;</span></div></pre><button type="button" aria-label="Copy code to clipboard" class="copyButton_1PCb">Copy</button></div></div><p>Note that these will run the <code>upload-binary</code> script, which will package and upload binaries for the current version of the package. A typical workflow of publishing a Neon module would include the following the following:</p><div class="mdxCodeBlock_iHAB"><div class="codeBlockWrapper_3ZcX"><pre class="prism-code language-bash codeBlock_1wn8" style="color:#bfc7d5;background-color:#292d3e"><div class="token-line" style="color:#bfc7d5"><span class="token function" style="color:rgb(130, 170, 255)">git</span><span class="token plain"> commit -a -m </span><span class="token string" style="color:rgb(195, 232, 141)">&quot;[publish binary]&quot;</span><span class="token plain"></span></div><div class="token-line" style="color:#bfc7d5"><span class="token plain"></span><span class="token function" style="color:rgb(130, 170, 255)">npm</span><span class="token plain"> publish</span></div></pre><button type="button" aria-label="Copy code to clipboard" class="copyButton_1PCb">Copy</button></div></div><h3><a aria-hidden="true" tabindex="-1" class="anchor enhancedAnchor_ZqCz" id="2-shipping-compiling-native-modules"></a><a aria-hidden="true" tabindex="-1" class="hash-link" href="#2-shipping-compiling-native-modules" title="Direct link to heading">#</a>2. Shipping compiling native modules</h3><p>Another solution is shipping all the compiled native code targets with the npm module. In other words, this means publishing the package with the windows, macOS, and linux binaries. This solution is considered more secure that the approach of uploading and download modules because they prevent users of a module from <a href="https://www.kb.cert.org/vuls/id/319816/">wormhole attacks</a>.</p><p>This feature is still a work in progress as the <a href="https://github.com/neon-bindings/rfcs/issues/16"><code>neon build --target</code> feature</a> is a work in progress.</p></div></article><div class="margin-vert--lg"><nav class="pagination-nav"><div class="pagination-nav__item"><a class="pagination-nav__link" href="/docs/electron-apps"><h5 class="pagination-nav__link--sublabel">Previous</h5><h4 class="pagination-nav__link--label">« Electron Apps</h4></a></div><div class="pagination-nav__item pagination-nav__item--next"><a class="pagination-nav__link" href="/docs/word-counting"><h5 class="pagination-nav__link--sublabel">Next</h5><h4 class="pagination-nav__link--label">Word Counting »</h4></a></div></nav></div></div></div><div class="col col--3"><div class="tableOfContents_TbNY"><ul class="contents contents__left-border"><li><a href="#1-upload-and-downloading-native-compiled-modules" class="contents__link">1. Upload and downloading native compiled modules</a></li><li><a href="#2-shipping-compiling-native-modules" class="contents__link">2. Shipping compiling native modules</a></li></ul></div></div></div></div></div></main></div></div><footer class="footer footer--dark"><div class="container"><div class="row footer__links"><div class="col footer__col"><h4 class="footer__title">Docs</h4><ul class="footer__items"><li class="footer__item"><a class="footer__link-item" label="Getting Started" href="/docs/getting-started">Getting Started</a></li><li class="footer__item"><a class="footer__link-item" label="Examples" to="https://github.com/neon-bindings/examples" href="https://github.com/neon-bindings/examples">Examples</a></li><li class="footer__item"><a class="footer__link-item" label="API Reference" to="https://docs.rs/neon" href="https://docs.rs/neon">API Reference</a></li></ul></div><div class="col footer__col"><h4 class="footer__title">Community</h4><ul class="footer__items"><li class="footer__item"><a class="footer__link-item" label="Community Chat" to="https://rust-bindings-slackin.herokuapp.com" href="https://rust-bindings-slackin.herokuapp.com">Community Chat</a></li><li class="footer__item"><a class="footer__link-item" label="Twitter" to="https://twitter.com/rustneon" href="https://twitter.com/rustneon">Twitter</a></li></ul></div><div class="col footer__col"><h4 class="footer__title">More</h4><ul class="footer__items"><li class="footer__item"><a class="footer__link-item" label="GitHub" to="https://github.com/neon-bindings/neon" href="https://github.com/neon-bindings/neon">GitHub</a></li></ul></div></div><div class="text--center logoContainer_c2nu"><div class="margin-bottom--sm"><img class="footer__logo" alt="Neon Logo" src="/logo/text-logo.svg"></div><div class="sponsor_2a7p"><a href="https://www.netlify.com"><img src="https://www.netlify.com/img/global/badges/netlify-color-accent.svg" alt="netlify sponsor"></a></div>Copyright © 2020 Neon Bindings</div></div></footer>
 </div>
 
-<script src="/styles.eb4f4695.js"></script>
+<script src="/styles.0fde1747.js"></script>
 
-<script src="/runtime~main.0956d89d.js"></script>
+<script src="/runtime~main.a8b8e96c.js"></script>
 
-<script src="/main.0805dba6.js"></script>
+<script src="/main.7a0352d1.js"></script>
 
-<script src="/1.5b2fa6c8.js"></script>
+<script src="/1.b030cc07.js"></script>
 
-<script src="/2.ddcaf4f9.js"></script>
+<script src="/2.7543236e.js"></script>
 
-<script src="/3.9174621c.js"></script>
+<script src="/3.8dbb5107.js"></script>
 
-<script src="/1be78505.7999be06.js"></script>
+<script src="/1be78505.e679768e.js"></script>
 
 <script src="/20ac7829.0ebc76df.js"></script>
 
-<script src="/17896441.748aeafa.js"></script>
+<script src="/17896441.a264d596.js"></script>
 
-<script src="/2d28018b.55679032.js"></script>
+<script src="/2d28018b.a4af743d.js"></script>
 
 
 </body>
